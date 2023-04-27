@@ -209,6 +209,7 @@ img {
     margin-left: 1rem;
     cursor: pointer;
     padding: 1.2rem 0;
+    background: transparent;
 }
 
 .input select,
@@ -222,13 +223,25 @@ select:invalid {
     color: #828282;
 }
 
-/* .input #arrow {
-    margin-right: .5rem;
+#select {
+    position: relative;
+    background: transparent;
+}
+
+#select::after {
+    position: absolute;
+    content: "\e5cf";
+    font-family: "Material Icons";
+    font-size: 22px;
+    color: #828282;
     background-color: #E0E0E0;
-} */
+    right: 0.5rem;
+    z-index: -1;
+}
 
 .input select:focus {
     outline: none;
+    background: #ffffff;
 }
 
 [hidden] {
@@ -396,6 +409,10 @@ footer a {
     .input select,
     .input select option {
         font-size: 12px;
+    }
+
+    #select::after {
+        font-size: 16px;
     }
 
     #shipping-address {

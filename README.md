@@ -31,10 +31,10 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/53589614/234975000-337c7556-4bc9-4111-ad3f-49e8338bfc6c.png)
+![screenshot](https://user-images.githubusercontent.com/53589614/234981317-a426c35b-5684-4b1e-9947-7c148d3ce91d.png)
 
 ![screenshot-mobile](https://user-images.githubusercontent.com/53589614/234975176-af7e8872-bd07-4d70-b151-a4ff6a1dfbfe.png)
-![screenshot-mobile-2](https://user-images.githubusercontent.com/53589614/234975319-f0868517-c487-4456-9bd1-e5a7960d45f5.png)
+![screenshot-mobile-2](https://user-images.githubusercontent.com/53589614/234980880-4222f2c5-1179-4e08-8ad8-9dcb4b0c7339.png)
 
 ### Built With
 

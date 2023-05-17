@@ -97,7 +97,7 @@
                 </div>
 
                 <div id="form">
-                    <form>
+                    <form id="formAction">
                         <h2>Contact infomation</h2>
                         <div class="form-inputs">
                             <div>
@@ -120,6 +120,7 @@
                                     <input
                                         type="number"
                                         name="phone"
+                                        id="phone"
                                         placeholder="Enter your phone..."
                                         required
                                     />
@@ -972,8 +973,9 @@
                                             markunread_mailbox
                                         </span>
                                         <input
-                                            type="text"
-                                            name="city"
+                                            type="number"
+                                            name="postal_code"
+                                            id="postal_code"
                                             placeholder="Your postal code..."
                                             required
                                         />
@@ -991,7 +993,9 @@
                         </div>
 
                         <div id="button-div">
-                            <button id="continue" type="button">Continue</button>
+                            <button id="continue" type="submit">
+                                Continue
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -999,7 +1003,13 @@
         </main>
 
         <footer>
-            <span>created by <a href="https://github.com/GustavoPendeza">Gustavo Pendeza</a> - devChallenges.io</span>
+            <span
+                >created by
+                <a href="https://github.com/GustavoPendeza">Gustavo Pendeza</a>
+                - devChallenges.io</span
+            >
         </footer>
+
+        <script src="js/validation.js"></script>
     </body>
 </html>
